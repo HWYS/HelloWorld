@@ -30,7 +30,7 @@ public class EditAlbumActivity extends AppCompatActivity {
                 info.setSongName(etSongName.getText().toString());
 
                 dbHelper.updateAlbum(info);
-
+                //**** Test ****
                 finish();
             }
         });
